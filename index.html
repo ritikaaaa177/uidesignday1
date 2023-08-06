@@ -6,37 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
 <body class="bg-gray-200">
 
-    <div class="bg-white shadow-lg w-138 mx-auto mt-28 text-center flex flex-row justify-evenly h-56">
+    <div class="bg-white shadow-lg w-138 mx-auto mt-28 text-center flex flex-row justify-evenly h-56 relative">
+
+        <div class="absolute -bottom-5 right-5">
+            <i class="fa-solid fa-pen bg-green-500 rounded-2xl bg-cover text-xl p-3"></i>
+        </div>
 
         <div class="mt-24 flex flex-col">
-
-            <h3 class="">TYPE OF DWELLING</h3>
-            <h3>Detached</h3>
+            <i class=" fa-solid fa-house"></i>
+            <h3 class="tracking-wider mt-3 space-x-3 font-custom font-semibold text-sm">TYPE OF DWELLING</h3>
+            <h3 class="font-bold font-info">Detached</h3>
 
         </div>
         <div class="mt-24 flex flex-col">
-
-            <h3 class="">LIVING AREA</h3>
-            <h3>147 m2</h3>
+            <i class="fa-solid fa-chart-area "></i>
+            <h3 class="font-custom mt-3  tracking-wider space-x-3 font-semibold text-sm">LIVING AREA</h3>
+            <h3 class="font-bold font-info">147 m2</h3>
         </div>
         <div class="mt-24 flex flex-col">
-            <h3 class="">CONSIDERED TO SOLD WITHIN</h3>
-            <h3>1 year</h3>
+            <i class="fa-solid fa-dollar-sign"></i>
+            <h3 class="font-custom tracking-wider mt-3 space-x-3 font-semibold text-sm">CONSIDERED TO SOLD WITHIN</h3>
+            <h3 class="font-bold font-info">1 year</h3>
 
         </div>
 
     </div>
 
 
-    <div class="bg-black w-138 h-96 mx-auto relative top-5">
+    <div class="bg-black w-138 h-108 mx-auto relative top-9">
+        <div class="absolute -bottom-5 right-5">
+            <i class="fa-solid fa-xmark bg-white rounded-xl bg-cover text-xl p-3"></i>
+
+        </div>
 
         <div class="flex flex-col mx-auto w-118 relative top-11">
-            <h2 class="text-white text-center text-xl font-bold ">Edit</h2>
-            <p class="text-white text-center mt-2 w-96 mx-auto">Enter details and let other users
+            <h2 class="text-white text-center text-xl font-bold font-custom tracking-wider ">Edit</h2>
+            <p class="text-white text-center mt-2 w-96 mx-auto font-info tracking-wider space-x-3">Enter details and let
+                other users
                 know when
                 you
                 are considering
@@ -45,13 +56,15 @@
             </p>
         </div>
 
-        <div class="flex flex-row  mt-28 justify-evenly">
+        <div class="flex flex-row  mt-28 justify-evenly ">
 
             <div class="flex flex-col ml-12 ">
 
-                <h3 class="text-white">LIVING AREA</h3>
+                <i class="fa-solid fa-chart-area text-white mx-auto "></i>
+
+                <h3 class="text-white font-custom mt-2 tracking-wider space-x-3 ">LIVING AREA</h3>
                 <div>
-                    <h3 class="text-black bg-white">147</h3>
+                    <h3 class="py-1 rounded-sm px-12 text-black bg-white font-info mt-2">147</h3>
                 </div>
 
 
@@ -59,19 +72,21 @@
 
             <div class="flex flex-col">
 
-                <h3 class="text-white">CONSIDERED TO SOLD WITHIN</h3>
+                <i class="fa-solid fa-dollar-sign text-white  mx-auto"></i>
+                <h3 class="text-white font-custom mt-2 tracking-wider space-x-3">CONSIDERED TO SOLD WITHIN</h3>
                 <div>
-                    <h3 class="text-black bg-white">1 year</h3>
+                    <h3 class=" py-1 rounded-sm px-12 text-black bg-white font-info mt-2">1 year</h3>
                 </div>
 
 
             </div>
 
             <div class="flex flex-col">
+                <i class=" fa-solid fa-house text-white mx-auto"></i>
 
-                <h3 class="text-white">TYPE OF DWELLING</h3>
+                <h3 class="text-white font-custom mt-2 tracking-wider space-x-3">TYPE OF DWELLING</h3>
                 <div>
-                    <h3 class="text-black bg-white">Detached</h3>
+                    <h3 class="py-1 rounded-sm px-12 text-black bg-white font-info mt-2">Detached</h3>
                 </div>
 
 
@@ -81,8 +96,8 @@
 
         <div class="flex flex-row justify-center items-center">
 
-            <button class="text-white border-2 border-white px-20 py-2 mt-20 mx-4 rounded-xl ">Cancel</button>
-            <button class="text-white bg-green-500 px-20 py-2 mt-20 mx-4 rounded-xl">Save</button>
+            <button class="text-white border-2 border-white px-20 py-2 mt-20 mx-4 rounded-xl font-info ">Cancel</button>
+            <button class="text-white bg-green-500 px-20 py-2 mt-20 mx-4 rounded-xl font-info">Save</button>
 
 
         </div>
